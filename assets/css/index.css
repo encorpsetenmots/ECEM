@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url("https://use.typekit.net/pfm6uzg.css");
+
+
+:root {
+  --Turquoise : #8DC3B6;
+  --Bleu : #596BE1;
+  --Vert : #2D6D59;
+  --Jaune : #F5CE49;
+  --Orange : #F95532;
+  --Rose : #F89A93;
+  --Beige : #FFEFE5;
+  --blanc : #ffffff;
+  --black: #000;
+    }
+
+  h1{
+      font-family: 'Anton' sans-serif;
+      font-size: 64px;
+      text-align: center;
+      color: var(--Vert);
+  }
+  
+  h2, h3{
+      font-family: "League Gothic", sans-serif;
+      font-size: 60px;
+      text-align: center;
+      color: var(--Vert);
+  }
+  
+  p, a{
+      font-family: 'Aileron', sans-serif;
+      font-size: 20px;
+    
+  }
+
+body {
+  background-color: var(--Beige);
+  margin: 0;
+  padding: 0;
+}
+
+ .image-accueil{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+ }
+
+.asso p{
+    color: var(--black);
+    text-align: center;
+}
+
+p,li, blockquote{
+    font-family: 'Aileron',italic, sans-serif;
+    color: var(--blanc);
+}
+
+blockquote{
+    font-family: 'Aileron', sans-serif;
+    font-style: italic;
+    color: var(--Vert);
+    text-align: center;
+}
+  
+  .sante-sexuelle-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+  .sante-sexuelle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--Turquoise); 
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 25% ;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    
+  }
+  
+
+  .sante-sexuelle-image img {
+    max-width: 200%;
+    height: auto;
+    margin-left: -100%;
+  }
+  
+ 
+  .sante-sexuelle-quote {
+    background-color: var(--blanc); 
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    
+    color: #333;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: -45%;
+  }
+  
+
+  .sante-sexuelle-quote .highlight {
+    color: var(--Orange); 
+  }
+  
+
+  .sante-sexuelle-description {
+    color: var(--black);
+    margin-top: 10px;
+    padding: 40px;
+    
+  }
+
+
+
+
+
+  .constats-section {
+    text-align: center;
+    background-color: var(--Beige);
+    padding: 30px 15px;
+  }
+  
+  
+
+  .constats-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 70px;
+  }
+  
+
+  .constat {
+    background-color: rgba(141, 195, 182, 0.5); 
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+
+  .stat {
+    font-size: 36px;
+    color: var(--Orange); 
+    font-weight: bold;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -18%;
+    border-radius: 15px;
+  }
+  
+ 
+  .description {
+    color: var(--black);
+    line-height: 1.6;
+    text-align: left;
+  }
+
+
+
+.temoignages-section {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .temoignages-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px;
+  }
+  
+
+  .temoignage {
+    display: flex;
+    width: 70%;
+  }
+  
+
+  .avatar {
+    width: 20%;
+    object-fit: cover;
+  }
+  
+
+  .temoignage-text {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+
+  .white-background {
+    background-color: #fff;
+    width: 130%;
+    height: auto;
+  }
+
+  .white-background p{
+    color: var(--Vert);
+  }
+  
+  .green-background {
+    background-color: var(--Vert); 
+    color: #fff;
+    height: auto;
+  }
+
+
+.presse-section {
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+
+  .presse-title {
+    color: var(--Vert);
+   
+  }
+  
+
+  .presse-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px; 
+    margin: 50px;
+  }
+
+  .presse-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px; 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .presse-item a{
+    color: var(--Bleu);
+  }
+  
+  .presse-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+
+  .presse-content {
+    padding: 15px;
+    flex: 1;
+  }
+  
+
+  .presse-source {
+    font-size: 30px;
+    color: var(--Orange); 
+  }
+  
+
+  .presse-date {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+ 
+  .presse-description {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+
+
+
+.partenaires-section {
+    text-align: center;
+  }
+  
+  .partenaires-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+
+  .partenaire-logo {
+    width: 50%; 
+  }
+
+  @media (max-width: 900px) {
+    .temoignages-container, .sante-sexuelle-container {
+      flex-direction: column; 
+    }
+  
+    .temoignage {
+      flex-direction: column; 
+      width: 90%; 
+      text-align: justify;
+    }
+  
+    .avatar {
+      width: 70%; 
+      margin: 0 auto; 
+    }
+  
+    .temoignage-text {
+      width: 100%; 
+      margin-top: 10px; 
+      text-align: justify; 
+  }
+  .sante-sexuelle-container img{
+    width: 100%;
+  }
+
+}

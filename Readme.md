@@ -1,0 +1,10 @@
+- feat: Commits, qui ajoutent ou suppriment une nouvelle fonctionnalité
+- fix: Commits, qui corrigent un bug
+- refactor:Les commits, qui réécrivent/restructurent votre code, ne modifient cependant aucun comportement de l'API
+- perf: Les commits sont refactordes commits spéciaux qui améliorent les performances
+- style: Les commits qui n'affectent pas le sens (espaces, formatage, points-virgules manquants, etc.)
+- test: Commits, qui ajoutent des tests manquants ou corrigent des tests existants
+- docs: Commits, qui affectent uniquement la documentation
+- build: Les commits, qui affectent les composants de build comme l'outil de build, le pipeline ci, les dépendances, la version du projet, ...
+- ops: Les commits qui affectent les composants opérationnels comme l'infrastructure, le déploiement, la sauvegarde, la - récupération, ...
+- chore: Commits divers, par exemple modification.gitignore
